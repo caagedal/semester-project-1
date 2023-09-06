@@ -1,0 +1,25 @@
+/* GLOBAL */
+
+:root{
+    --light-txt_bg: #d9d9d9;
+    --dark-txt_bg: #2e2e2e;
+
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--light-txt_bg);
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    background-color: var(--dark-txt_bg);
+}
+
+.header{
+    display: flex;
+}
