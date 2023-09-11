@@ -3,23 +3,194 @@
 :root{
     --light-txt_bg: #d9d9d9;
     --dark-txt_bg: #2e2e2e;
-
+    --red: #C34D4D;
+    --blue: #006466;
+    --yellow: #C8B724;
+    --green: #5D8B52;
+    --amatic: amatic SC, cursive;
+    --poppins: poppins, sans-serif;
 }
 
 body{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--light-txt_bg);
+    background: var(--light-txt_bg);
 }
+
+body h1, h2, h3{
+    font-family: var(--amatic)
+}
+
+body h1{
+    font-size: 4rem;
+}
+
+
+body p{
+    font-family: var(--poppins)
+}
+
+body a{
+    text-decoration: none;
+}
+
 
 /* HEADER */
 
-header{
+header {
+    background: #2e2e2e;
     display: flex;
-    background-color: var(--dark-txt_bg);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.header{
+nav a{
+    color: var(--light-txt_bg);
+    text-decoration: none;
+    font-family: var(--amatic);
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 30px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav a.active{
+    text-decoration: underline;
+}
+
+.logo img{
+    max-width: 85%;
+    padding: 10px 0;
+}
+
+/* HOME */
+
+.hero{
     display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.mini-container-hero{
+    font-size: 1.1rem;
+    position: absolute;
+    display: block;
+    right: 0px;
+    top: 0px;
+    color: var(--light-txt_bg);
+}
+
+.red{
+    background-color: var(--red);
+    padding: 1px 30px 20px;
+}
+
+.red a{
+    display: block;
+    color: var(--light-txt_bg);
+    font-family: var(--poppins);
+}
+
+.red p,.green  p{
+    font-family: var(--amatic);
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 5px 0;
+    color: var(--light-txt_bg);
+}
+
+.green{
+    background-color: var(--green);
+    padding: 1px 30px 20px;
+    text-decoration: none;
+}
+
+.green li{
+    list-style-type: none;
+    font-family: var(--poppins)
+}
+
+.hero h1,.hero h2{
+    text-align: center;
+    color: var(--dark-txt_bg);
+    font-family: var(--amatic);
+    font-weight: 700;
+    padding: 10px;
+    margin: 10px;
+}
+
+.hero h2{
+    font-size: 2.5rem;
+}
+
+.info-board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news, .site-cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.news{
+    color: var(--light-txt_bg);
+    display: flex;
+    justify-content: space-around;
+}
+
+.energetica-home{
+    background: url(../images/home-energetica.jpg);
+}
+
+.nighttime-home{
+    background: url(../images/home-nightevent.jpg);
+}
+
+.nighttime-home, .energetica-home{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 590px;
+    height: 560px;
+    border-radius: 10px;
+}
+
+.random{
+    margin-top: 40%;
+    margin-left: 40%;
+    padding: 10px;
+}
+
+.site-cards{
+    padding: 10px;
+    margin: 20px;
+}
+
+.simple-container{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.about-home{
+    background: url(../images/home-explore.jpg);
+}
+
+.exhibitions-home{
+    background: url(../images/home-exhibitions.jpg);
+}
+
+.events-home{
+    background: url(../images/home-events.jpg);
+}
+
+.visit-home{
+    background: url(../images/home-visit.jpg);
 }
