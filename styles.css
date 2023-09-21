@@ -107,24 +107,30 @@ h1{
 
 header{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     text-transform: uppercase;
     font-size: var(--txt-size-20);
 }
 
+.header-info{
+    display: flex;
+}
+
 .one{
-    display: block;
+    display: flex;
     justify-content: space-between;
     padding: var(--txt-size-20);
 }
 
-.one p{
+.headline p{
     margin: var(--txt-size-20);
     background: url(/images/underline.png) bottom left no-repeat;
 }
 
 nav{
-    padding: 20px 0;
+    padding-bottom: 20px;
+    padding-left: var(--txt-size-20);
 }
 
 nav a{
@@ -136,15 +142,17 @@ nav a.current{
     color: var(--dark-txt-bg);
 }
 
-.two{
+.header-info{
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: var(--txt-size-64);
-    padding: var(--txt-size-20);
-    margin: var(--txt-size-20);
-    align-items: top;
+    padding-right: var(--txt-size-20);
+    align-items: center;
+    font-size: var(--txt-size-16);
 }
+
 
 .hero-main{
     display: flex;

@@ -26,7 +26,27 @@
     background: url(/images/exhibit-hero.jpg);
 }
 
-.ex-cards, .dyk-card{
+.card-left, .card-right{
     display: flex;
+    gap: 20px;
 }
 
+
+.info-txt-left, .info-txt-right{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+
+
+.info-txt-left p, .info-txt-right p{
+    font-size: var(--txt-size-16);
+}
+
+.fat{
+    font-weight: var(--fw-semibold);
+    font-size: var(--txt-size-20);
+}

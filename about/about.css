@@ -27,7 +27,7 @@
 .other-hero{
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 5rem;
+    padding: 10rem;
     color: var(--light-txt-bg);
 }
 
