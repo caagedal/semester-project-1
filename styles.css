@@ -1,5 +1,6 @@
 
-
+@import url(/about/about.css);
+@import url(/exhibitions/exhibitions.css);
 /* GLOBAL */
 
 /* ROOT */
@@ -60,8 +61,12 @@ h2{
     font-size: var(--txt-size-24);
 }
 
-h1, h2{
+h2{
     background: url(/images/underline.png) bottom left no-repeat;
+}
+
+h1{
+    background: url(/images/underline-white.png) bottom left no-repeat;
 }
 
 h1{
@@ -306,4 +311,8 @@ footer a{
 .socials img{
     height: auto;
     width: 10%;
+}
+
+.container{
+    margin: 4% 10%;
 }

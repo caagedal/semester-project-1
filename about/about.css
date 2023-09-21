@@ -1,0 +1,110 @@
+
+:root{
+    --light-txt-bg: #ECE4DF;
+    --dark-txt-bg: #051719;
+    --grey: #989898;
+    --blue: #1B5D64;
+
+    --poppins: poppins, sans-serif;
+
+    --txt-size-16: 1rem;
+    --txt-size-20: 1.25rem;
+    --txt-size-24: 1.5rem;
+    --txt-size-32: 2rem;
+    --txt-size-64: 4rem;
+
+    --fw-extra-light: 200;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    --desk-margins: 4% 10%;
+}
+
+
+.other-hero{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem;
+    color: var(--light-txt-bg);
+}
+
+.about-hero{
+    background-image: url(/images/abouthero.jpg);
+}
+
+.bold{
+    font-size: var(--txt-size-24);
+    font-weight: var(--fw-medium);
+}
+
+.description{
+    font-size: var(--txt-size-24);
+    font-weight: var(--fw-regular);
+}
+
+.about-top{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-middle{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-upper, .about-lower{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.upper-info, .lower-info{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.upper-info{
+    padding-right: 4rem;
+    margin-bottom: 2rem;
+}
+
+.lower-info{
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+
+.about-upper img{
+    width: 100%;
+    height: auto;
+}
+
+.about-lower img{
+    width: 90%;
+    height: auto;
+}
+
+.offer h2{
+    margin-bottom: 2rem;
+}
+
+.interactive h3, .family h3, .wonders h3{
+    margin-bottom: 2rem;
+    font-weight: var(--fw-medium);
+    font-size: var(--txt-size-20);
+}
+
+.bottom-img{
+    margin: 2% 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom-img img{
+    height: auto;
+    width: 100%;
+}
