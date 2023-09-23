@@ -24,15 +24,12 @@
 }
 
 
-.other-hero{
+.about-hero{
+    background: url(/images/abouthero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10rem;
     color: var(--light-txt-bg);
-}
-
-.about-hero{
-    background-image: url(/images/abouthero.jpg);
 }
 
 .bold{
@@ -86,6 +83,10 @@
 .about-lower img{
     width: 90%;
     height: auto;
+}
+
+.offer{
+    margin-bottom: 2rem;
 }
 
 .offer h2{

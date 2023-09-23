@@ -1,0 +1,100 @@
+:root{
+    --light-txt-bg: #ECE4DF;
+    --dark-txt-bg: #051719;
+    --grey: #989898;
+    --blue: #1B5D64;
+
+    --poppins: poppins, sans-serif;
+
+    --txt-size-16: 1rem;
+    --txt-size-20: 1.25rem;
+    --txt-size-24: 1.5rem;
+    --txt-size-32: 2rem;
+    --txt-size-64: 4rem;
+
+    --fw-extra-light: 200;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    --desk-margins: 4% 10%;
+}
+
+
+.visit-hero{
+    background: url(/images/visit-hero.jpg
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10rem;
+    color: var(--light-txt-bg);
+}
+
+.visit-top{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.visit-top h2, .visit-bottom h2{
+    font-size: var(--txt-size-24);
+    font-weight: var(--fw-semibold);
+}
+
+
+.visit-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+    width: 65%;
+}
+
+.visit-info h2, .visit-bottom h2{
+    margin-bottom: 30px;
+}
+
+.visit-txt p, .visit-bottom p{
+    padding-bottom: 20px;
+    font-size: var(--txt-size-20);
+    font-weight: var(--fw-light);
+}
+
+.visit-info-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+}
+
+.v-card{
+    border: solid var(--blue);
+    border-width: 4px;
+    padding: 0 20px;
+}
+
+.v-card h2{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-size: var(--txt-size-20);
+}
+
+.v-card h3{
+    font-weight: var(--fw-medium);
+}
+
+.v-card h3, .v-card p{
+    margin-bottom: 15px;
+}
+
+.bolder{
+    font-weight: var(--fw-medium);
+}
+
+.v-card img, .visit-bottom img{
+    height: auto;
+    width: 100%;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,52 @@
+:root{
+    --light-txt-bg: #ECE4DF;
+    --dark-txt-bg: #051719;
+    --grey: #989898;
+    --blue: #1B5D64;
+
+    --poppins: poppins, sans-serif;
+
+    --txt-size-16: 1rem;
+    --txt-size-20: 1.25rem;
+    --txt-size-24: 1.5rem;
+    --txt-size-32: 2rem;
+    --txt-size-64: 4rem;
+
+    --fw-extra-light: 200;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    --desk-margins: 4% 10%;
+}
+
+.events-hero{
+    background: url(/images/events-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10rem;
+    color: var(--light-txt-bg);
+}
+
+.fat-s{
+    font-weight: var(--fw-semibold);
+    text-transform: uppercase;
+}
+
+.fat-l{
+    font-weight: var(--fw-medium);
+    font-size: var(--txt-size-24);
+}
+
+.ongoing img{
+    height: auto;
+    width: 100%;
+}
+
+.event-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

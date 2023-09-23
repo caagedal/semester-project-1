@@ -24,6 +24,10 @@
 
 .exhibitions-hero{
     background: url(/images/exhibit-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10rem;
+    color: var(--light-txt-bg);
 }
 
 .card-left, .card-right{
@@ -40,8 +44,6 @@
     gap: 40px;
 }
 
-
-
 .info-txt-left p, .info-txt-right p{
     font-size: var(--txt-size-16);
 }
@@ -50,3 +52,5 @@
     font-weight: var(--fw-semibold);
     font-size: var(--txt-size-20);
 }
+
+
