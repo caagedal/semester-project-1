@@ -30,27 +30,64 @@
     color: var(--light-txt-bg);
 }
 
-.card-left, .card-right{
-    display: flex;
-    gap: 20px;
-}
-
-
-.info-txt-left, .info-txt-right{
-    display: flex;
+.exhibit-card{
+    max-width: 1100px;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 40px;
+    background-color: rgb(17, 88, 67);
+    color: white;
+    padding: 30px;
+    display: flex;
+    margin: 2rem auto;
+    gap: 20px;
+    justify-content: space-between;
+    border-radius: 10px;
 }
 
-.info-txt-left p, .info-txt-right p{
-    font-size: var(--txt-size-16);
-}
-
-.fat{
-    font-weight: var(--fw-semibold);
+.ex-card-info{
+    flex: 2;  
+    font-weight: var(--fw-light);
     font-size: var(--txt-size-20);
 }
 
+.ex-fat{
+    font-size: var(--txt-size-20);
+    font-weight: var(--fw-bold);
+}
 
+.cosmo-img{
+    background: url(/images/cosmo-space.jpg);
+}
+
+.bio-img{
+    background: url(/images/bio-virus.jpg);
+}
+
+.evo-img{
+    background: url(/images/evo-darwin.jpg);
+}
+
+.eco-img{
+    background: url(/images/eco-droplet.jpg);
+}
+
+.robo-img{
+    background: url(/images/robo-robo.jpg);
+}
+
+.robo-img, .eco-img, .evo-img, .bio-img, .cosmo-img{
+    flex: 1;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.ex-card-info p, .ex-card-info h3{
+    margin-top: 20px;
+}
+
+
+.ex-card-info h3{
+    font-size: var(--txt-size-20);
+    font-weight: var(--fw-medium);
+}

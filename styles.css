@@ -196,20 +196,26 @@ nav a.current{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 1rem;
     margin: 3% 0;
-
 }
 
 .card{
     display: flex;
     flex-direction: column;
     max-width: 30%;
+    background-color: rgb(21, 179, 179);
+    padding: 10px;
+    align-items: center;
+}
 
+.card img{
+    width: 90%;
+    height: auto;
 }
 
 .card p{
     margin: 10px 0;
+    padding: 0 20px;
 }
 
 .exhibitions{
@@ -252,11 +258,19 @@ nav a.current{
 }
 
 .involve{
+    color: var(--light-txt-bg);
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     margin: 4% 10% 2% 10%;
     gap: 3rem;
+    background-color: #db9c14;
+    font-size: var(--txt-size-20);
+    padding: 20px;
+}
+
+.involve a{
+    color: var(--light-txt-bg);
 }
 
 .involve-txt{
