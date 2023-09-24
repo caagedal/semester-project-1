@@ -222,7 +222,7 @@ kode til exhibits som jeg tror jeg sløyfer
             </div>
         </section>
         <div class="back-to-top">
-            <a href="#body">BACK TO TOP <img src="/images/Arrow 1.png" alt="image of a arrow pointing up"></a>
+            <a href="#body">BACK TO TOP <img src="/images/arrow1.png" alt="image of a arrow pointing up"></a>
         </div>
     </main>
     <footer>
