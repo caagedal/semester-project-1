@@ -1,3 +1,13 @@
+.other-hero{
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 10rem 5rem;
+    color: var(--light-txt-bg);
+}
+
+
 body{
     margin: 0 auto;
     display: flex;
@@ -19,6 +29,15 @@ h1, h2, h3, p, a{
     text-decoration: none;
 }
 
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+h2{
+    font-weight: var(--fw-medium);
+    font-size: var(--txt-size-24);
+}
+
 h2{
     background: url(/images/underline-white.png) bottom left no-repeat;
 }
@@ -27,12 +46,55 @@ h1{
     background: url(/images/underline-white.png) bottom left no-repeat;
 }
 
+h1{
+    font-size: var(--txt-size-64);
+}
+
+
+.button{
+    padding: 5px 10px;
+    border-radius: 100px;
+    border: 2px;
+    border-style: solid;
+    border-color: var(--blue);
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.button a{
+    font-size: var(--txt-size-16);
+    color: var(--dark-txt-bg);
+    font-weight: var(--fw-medium);
+    text-transform: uppercase;
+}
+
+
 .divider{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-img{
-    object-fit: cover;
+.divider img{
+    width: 70%;
+    height: auto;
+}
+
+
+
+@media (max-width: 850px){
+    .other-hero{
+        padding: 10rem 2rem;
+    }
+}
+
+@media (max-width: 500px){
+    .other-hero{
+        padding: 5rem 1rem;
+    }
+
+    .other-hero h1{
+        font-size: 30px;
+    }
 }
