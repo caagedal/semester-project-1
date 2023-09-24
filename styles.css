@@ -155,6 +155,51 @@ nav a.current{
     font-size: var(--txt-size-16);
 }
 
+#menu-checkbox{
+    display: none;
+}
+
+.hamburger-icon{
+    display: none;
+}
+
+@media (max-width: 850px) {
+
+    header{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    nav, #menu-checkbox, .header-info{
+        display: none;
+    }
+    
+    #menu-checkbox:checked ~ nav{
+        display: flex;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    .one{
+        padding: 20px;
+        margin: 0;
+    }
+
+    .hamburger-icon{
+        display:flex;
+        justify-content: flex-end;
+        padding: 20px;
+    }
+
+
+
+    .headline p{
+        margin: 0;
+        font-size: var(--txt-size-16);
+    }
+}
 
 .hero-main{
     display: flex;
