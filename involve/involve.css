@@ -3,6 +3,10 @@
     --dark-txt-bg: #051719;
     --grey: #989898;
     --blue: #1B5D64;
+    --pink: #743666;
+    --notsure1: #1B5D64;
+    --notsure2: rgb(105, 42, 31);
+    --green: #257922;
 
     --poppins: poppins, sans-serif;
 
@@ -32,10 +36,15 @@
 
 .for-kids{
     display: flex;
+    background-color: var(--green);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .kids-text{
     flex: 1;
+    padding: 10px;
+    color: var(--light-txt-bg);
 }
 
 .kids-text p, .teachers p, .researchers p, .researchers img{
@@ -95,4 +104,27 @@
     object-fit: cover
 }
 
+.teachers{
+    background-color: var(--notsure2);
+    color: var(--light-txt-bg);
+    border-radius: 10px;
+}
 
+.teachers-txt{
+    padding: 20px;
+}
+
+.researchers{
+    background-color: var(--notsure1);
+    color: var(--light-txt-bg);
+}
+
+.research-txt{
+    padding: 20px;
+}
+
+.involve-end, .welcome-txt{
+    color: var(--dark-txt-bg);
+    font-size: var(--txt-size-20);
+    font-weight: var(--fw-medium);
+}

@@ -3,6 +3,10 @@
     --dark-txt-bg: #051719;
     --grey: #989898;
     --blue: #1B5D64;
+    --pink: #743666;
+    --notsure1: #1B5D64;
+    --notsure2: rgb(105, 42, 31);
+    --green: #257922;
 
     --poppins: poppins, sans-serif;
 
@@ -28,6 +32,16 @@
     background-repeat: no-repeat;
     padding: 10rem;
     color: var(--light-txt-bg);
+}
+
+.ongoing-content{
+    background-color: var(--pink);
+    color: var(--light-txt-bg);
+}
+
+.ongoing-content p{
+    padding: 15px;
+    font-weight: var(--fw-light);
 }
 
 .fat-s{

@@ -3,6 +3,10 @@
     --dark-txt-bg: #051719;
     --grey: #989898;
     --blue: #1B5D64;
+    --pink: #743666;
+    --notsure1: #1B5D64;
+    --notsure2: rgb(105, 42, 31);
+    --green: #257922;
 
     --poppins: poppins, sans-serif;
 
@@ -33,7 +37,6 @@
 .exhibit-card{
     max-width: 1100px;
     flex-wrap: wrap;
-    background-color: rgb(17, 88, 67);
     color: white;
     padding: 30px;
     display: flex;
@@ -90,4 +93,42 @@
 .ex-card-info h3{
     font-size: var(--txt-size-20);
     font-weight: var(--fw-medium);
+}
+
+.cosmos, .evo, .robos{
+    background-color: rgb(17, 88, 67);
+}
+
+.bio, .ecol{
+    background-color: rgb(190, 133, 26);
+}
+
+.exhib-welcome p{
+    font-size: var(--txt-size-20);
+    font-weight: var(--fw-medium);
+}
+
+/*mediaqueries*/
+
+@media (max-width: 1200px){
+
+    .exhibit-card{
+        margin: 2rem 2rem;
+    }
+
+    .ex-card-info{
+        font-size: 16px;
+    }
+
+    .ex-card-info h3{
+        font-size: var(--txt-size-16);
+        font-weight: var(--fw-medium);
+    }
+}
+
+@media (max-width: 800px){
+
+    .exhibit-card{
+        
+    }
 }

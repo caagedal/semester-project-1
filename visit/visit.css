@@ -3,6 +3,10 @@
     --dark-txt-bg: #051719;
     --grey: #989898;
     --blue: #1B5D64;
+    --pink: #743666;
+    --notsure1: #1B5D64;
+    --notsure2: rgb(105, 42, 31);
+    --green: #257922;
 
     --poppins: poppins, sans-serif;
 
@@ -39,17 +43,21 @@
 }
 
 .visit-top h2, .visit-bottom h2{
-    font-size: var(--txt-size-24);
+    font-size: var(--txt-size-20);
     font-weight: var(--fw-semibold);
 }
 
 
 .visit-info{
     display: flex;
+    color: var(--light-txt-bg);
     flex-direction: column;
     justify-content: flex-start;
     gap: 40px;
     width: 65%;
+    background-color: #1f648b;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .visit-info h2, .visit-bottom h2{
@@ -70,8 +78,9 @@
 }
 
 .v-card{
-    border: solid var(--blue);
+    border: solid #265832;
     border-width: 4px;
+    border-radius: 10px;
     padding: 0 20px;
 }
 
@@ -97,4 +106,30 @@
     height: auto;
     width: 100%;
     padding-bottom: 20px;
+}
+
+.visit-bottom{
+    background-color: #265832;
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--light-txt-bg);
+}
+
+@media (max-width: 1000px){
+    .visit-top{
+        gap: 10px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .visit-info-cards{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
+
+    .visit-info{
+        width: auto;
+    }
 }

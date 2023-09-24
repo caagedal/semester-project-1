@@ -4,6 +4,10 @@
     --dark-txt-bg: #051719;
     --grey: #989898;
     --blue: #1B5D64;
+    --pink: #743666;
+    --notsure1: #1B5D64;
+    --notsure2: rgb(105, 42, 31);
+    --green: #257922;
 
     --poppins: poppins, sans-serif;
 
@@ -94,7 +98,7 @@
     color: var(--light-txt-bg);
 }
 
-.about-upper img{
+.about-upper img, .bottom-img img{
     width: 100%;
     height: auto;
 }
@@ -124,7 +128,7 @@
     flex-wrap: wrap;
 }
 
-.bottom-img img{
-    height: auto;
-    width: 100%;
+
+@media (max-width: 1000px){
+    
 }
