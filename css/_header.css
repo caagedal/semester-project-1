@@ -71,6 +71,10 @@ nav a.current{
 
     nav{
         flex-direction: column;
+        position: absolute;
+        right: 0px;
+        top: 60px;
+        background-color: var(--light-txt-bg);
     }
 
     .one{
@@ -88,6 +92,6 @@ nav a.current{
 
     .headline p{
         margin: 0;
-        font-size: var(--txt-size-16);
+        font-size: 14px;
     }
 }

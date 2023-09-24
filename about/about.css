@@ -129,6 +129,22 @@
 }
 
 
-@media (max-width: 1000px){
-    
+@media (max-width: 800px){
+    .about-images,.about-images2{
+        display: none;
+    }
+
+    .about-top h2{
+        font-size: 18px;
+    }
+
+    .about-top p{
+        font-size: var(--txt-size-16);
+    }
+}
+
+@media (max-width: 600px){
+  .upper-info, .lower-info{
+    padding: 2rem;
+  }
 }

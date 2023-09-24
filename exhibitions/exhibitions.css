@@ -27,10 +27,12 @@
 }
 
 .exhibitions-hero{
+    display: flex;
     background: url(/images/exhibit-hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 10rem;
+    background-position: center center;
+    padding: 10rem 5rem;
     color: var(--light-txt-bg);
 }
 
@@ -57,32 +59,14 @@
     font-weight: var(--fw-bold);
 }
 
-.cosmo-img{
-    background: url(/images/cosmo-space.jpg);
-}
 
-.bio-img{
-    background: url(/images/bio-virus.jpg);
-}
 
-.evo-img{
-    background: url(/images/evo-darwin.jpg);
-}
-
-.eco-img{
-    background: url(/images/eco-droplet.jpg);
-}
-
-.robo-img{
-    background: url(/images/robo-robo.jpg);
-}
-
-.robo-img, .eco-img, .evo-img, .bio-img, .cosmo-img{
+.ex-img img{
     flex: 1;
     border-radius: 8px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .ex-card-info p, .ex-card-info h3{
@@ -126,9 +110,56 @@
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
 
     .exhibit-card{
-        
+        display: block;
+        padding: 20px;
+        margin: 4% 10%;   
     }
+
+    .ex-img{
+        margin-top: 10px;
+    }
+
+    .ex-img img{
+        max-height: 300px;
+        object-fit: cover;
+        object-position: center center;
+    }
+    
+
+}
+
+@media (max-width: 850px){
+    .exhibitions-hero{
+        padding: 10rem 2rem;
+    }
+}
+
+@media (max-width: 500px){
+    
+    .exhib-welcome p{
+        font-size: 16px;
+    }
+
+    .exhibitions-hero{
+        padding: 5rem 1rem;
+    }
+
+    .exhibitions-hero h1{
+        font-size: 30px;
+    }
+
+    .ex-card-info p{
+        flex: 2;  
+        font-weight: var(--fw-light);
+        font-size: var(--txt-size-16);
+    }
+
+    .ex-card-info h3, .ex-card-info h2{
+        font-size: var(--txt-size-16);
+        font-weight: var(--fw-medium);
+    }
+    
 }

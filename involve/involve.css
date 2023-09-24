@@ -36,66 +36,31 @@
 
 .for-kids{
     display: flex;
+    flex-direction: column;
     background-color: var(--green);
     border-radius: 10px;
-    padding: 10px;
+
 }
 
 .kids-text{
-    flex: 1;
-    padding: 10px;
     color: var(--light-txt-bg);
+    padding: 20px;
 }
 
 .kids-text p, .teachers p, .researchers p, .researchers img{
     margin-top: 20px;
 }
 
-.kids-lower{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
 
-.kids-large{
-    flex: 2;
-    background: url(/images/involve-kids1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 10px;
-}
 
-.kids-small{
-    flex: 1;
-    display: flex;
+.kids-large img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0 ;
 }
 
 .card-image-s{
     margin: 10px;
-}
-
-#involve-img2{
-    flex: 1;
-    background: url(/images/involve-kids2.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-#involve-img3{
-    flex: 1;
-    background: url(/images/involve-kids5.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-#involve-img4{
-    flex: 1;
-    background: url(/images/involve-kids4.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
 }
 
 .teachers img, .researchers img{
@@ -128,3 +93,4 @@
     font-size: var(--txt-size-20);
     font-weight: var(--fw-medium);
 }
+
