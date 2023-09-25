@@ -1,5 +1,4 @@
 .other-hero{
-    display: flex;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -13,7 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: var(--light-txt-bg);
+    background: var(--background);
     font-family: var(--poppins);
     box-sizing: border-box;
 }
@@ -38,8 +37,16 @@ h2{
     font-size: var(--txt-size-24);
 }
 
-h2{
+.white{
     background: url(/images/underline-white.png) bottom left no-repeat;
+    background-size: 40px;
+    padding-bottom: 3px;
+}
+
+.dark{
+    background: url(/images/underline.png) bottom left no-repeat;
+    background-size: 40px;
+    padding-bottom: 3px;
 }
 
 h1{
@@ -81,20 +88,26 @@ h1{
     height: auto;
 }
 
-
-
-@media (max-width: 850px){
-    .other-hero{
-        padding: 10rem 2rem;
-    }
+.welcome-txt h2{
+    padding: 20px;
+    font-size: var(--txt-size-24);
 }
 
-@media (max-width: 500px){
-    .other-hero{
-        padding: 5rem 1rem;
-    }
+.welcome-txt p{
+    padding: 20px;
+    font-size: var(--txt-size-20);
+    font-weight: var(--fw-regular);
+}
 
-    .other-hero h1{
-        font-size: 30px;
+@media (max-width: 1000px){
+
+    .welcome-txt h2{
+        padding: 10px;
+        font-size: var(--txt-size-20);
+    }
+    
+    .welcome-txt p{
+        padding: 10px;
+        font-size: var(--txt-size-16);
     }
 }

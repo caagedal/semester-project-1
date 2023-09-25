@@ -7,7 +7,9 @@ footer{
 }
 
 .logo-footer p{
-    background: url(/images/underline.png) bottom left no-repeat;
+    background: url(/images/underline-white.png) bottom left no-repeat;
+    background-size: 15%;
+    padding-bottom: 5px;
     font-size: var(--txt-size-20);
 }
 

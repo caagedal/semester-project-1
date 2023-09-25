@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to our science community museum, explore and discover the many curiosities of our wonderful universe!">
+    <meta name="description" content="Here you will find information on our ongoing and upcoming special events, come have a look!">
     <link rel="stylesheet" href="/styles.css">
     <link rel="icon" href="images/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +15,7 @@
     <header>
         <div class="one">
             <div class="headline">
-                <p>COMMUNITY SCIENCE <span class="thin">MUSEUM</span></p>
+                <a href="/index.html" id="headliner">COMMUNITY SCIENCE <span class="thin">MUSEUM</span></a>
             </div>
             <div class="header-info">
                 <div class="opening-hours-header">
@@ -40,60 +40,73 @@
         <section class="events-hero other-hero">
             <h1>Events</h1>
         </section>
-        <section class="event-info container">
-            <div class="fat-l"><p>Welcome to our Museum Events page, where science and discovery come to life with a variety of exciting experiences.</p></div>
-            <div><p>All events are free of charge, but events with limited space will require you to sign up.</p></div>
-            <div><p> Here's a glimpse of our upcoming events</p></div>
+        <section class="welcome-txt container">
+            <h2>Welcome to our Museum Events page, where science and discovery come to life with a variety of exciting experiences.</h2>
+            <p>All events are free of charge, but events with limited space will require you to sign up.</p>
         </section>
         <div class="divider">
             <img src="/images/divider-blue.png" alt="A divider to split up sections on the page.">
         </div>
         <section class="ongoing container">
-            <div>
+            <div class="top-ongoing">
                 <p>ongoing event</p>
             </div>
             <div>
-                <h2>dinodiscovery: unearth the past</h2>
+                <h2  class="dark">dinodiscovery: unearth the past</h2>
             </div>
             <div class="ongoing-content">
                  <img src="/images/events1.jpg" alt="Image of a mammoth skeleton">
                 <p>Journey back in time with "DinoDiscovery," an ongoing exhibition that reveals the wonders of the Jurassic era. Encounter lifelike dinosaur replicas, authentic fossils, and engaging talks from experts. Become a paleontologist with interactive digs and step into the Mesozoic era with our time-travel theater. Join us in uncovering the mysteries of Earth's ancient past!</p>
             </div>
         </section>
-        <section class="upcoming container">
+        <section class="events-main event-page container">
+            <h2 class="dark">upcoming events</h2>
+            <h3>next month</h3>
             <div class="events-cards">
                 <div class="energetica card">
-                    <p class="fat-s">COMING NEXT MONTH</p>
-                    <img src="/images/home-energetica.jpg" alt="Image of the energetica exhibition">
-                    <p class="fat-s">ENERGETICA EXHIBITION</p>
-                    <p>Discover the power of the elements with our Energetica exhibition on loan from the NEMO Science Museum in Amsterdam. Immerse yourself in installations showcasing the magic of harnessing solar and wind energy, shedding light on sustainable power sources.</p>
+                    <div class="card-img-main">
+                        <img src="/images/home-energetica.jpg" alt="Image of the energetica exhibition">
+                    </div>
+                    <div>
+                        <h4>ENERGETICA EXHIBITION</h4>
+                        <p>Discover the power of the elements with our Energetica exhibition on loan from the NEMO Science Museum in Amsterdam. Immerse yourself in installations showcasing the magic of harnessing solar and wind energy, shedding light on sustainable power sources.</p>
+                    </div>
                 </div>
                 <div class="nighttime card">
-                    <p class="fat-s">COMING THIS NOVEMBER</p>
-                    <img src="/images/home-nightevent.jpg" alt="Image of children playing in the dark">
-                    <p class="fat-s">Night in the museum</p>
-                    <p>Bring your family for an unforgettable night surrounded by dinosaurs and science displays. Grab your sleeping bags and prepare to rough it as we embark on a fascinating exploration of science during this special overnight adventure..</p>
-                    <div class="nighttime-register">
-                        <p class="fat-s">Sign up for the event at the front desk in the museum</p>
+                    <div  class="card-img-main">
+                        <img src="/images/home-nightevent.jpg" alt="Image of children playing in the dark">
+                    </div>
+                    <div>
+                        <h4>NIGHT IN THE MUSEUM</h4>
+                        <p>Bring your family for an unforgettable night surrounded by dinosaurs and science displays. Grab your sleeping bags and prepare to rough it as we embark on a fascinating exploration of science during this special overnight adventure..</p>
+                        <div class="register">
+                            <p class="fat-s">Sign up for the event at the front desk in the museum</p>
+                        </div>
+    
                     </div>
                 </div>
                 <div class="aeronautics card">
-                    <p class="fat-s">COMING THIS NOVEMBER</p>
-                    <img src="/images/home-proffessor.jpg" alt="Image of Proffessor Sheila Widnail">
-                    <div class="nighttime-register">
-                        <p class="fat-s">VISITING PROFFESSOR OF AERONAUTICS</p>
+                    <div  class="card-img-main">
+                        <img src="/images/home-proffessor.jpg" alt="Image of Proffessor Sheila Widnail">
                     </div>
-                    <p>Join us as we welcome Prof Sheila Widnall from MIT for three captivating lectures on the future of aeronautics. Explore the evolving world of 'space' and the groundbreaking developments in this field.</p>
-                    <div class="nighttime-register">
-                        <p class="fat-s">Sign up for the lectures at the front desk in the museum</p>
+                    <div>
+                        <h4>PROFFESSOR OF AERONAUTICS</h4>
+                        <p>Join us as we welcome Prof Sheila Widnall from MIT for three captivating lectures on the future of aeronautics. Explore the evolving world of 'space' and the groundbreaking developments in this field.</p>
+                        <div class="register">
+                            <p class="fat-s">Sign up for the lectures at the front desk in the museum</p>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="button auto-but">
+                <a href="events.html">Go to events</a>
+            </div>
         </section>
         <div class="divider">
             <img src="/images/divider-blue.png" alt="A divider to split up sections on the page.">
         </div>
         <section class="events-end container">
-            <p class="fat">Stay tuned for more exciting events each month, as we continue to bring you new and diverse experiences that celebrate the wonders of science. Join us on this journey of discovery!</p>
+            <p>Stay tuned for more exciting events each month, as we continue to bring you new and diverse experiences that celebrate the wonders of science. Join us on this journey of discovery!</p>
         </section>
         <div class="back-to-top">
             <a href="#body">BACK TO TOP <img src="/images/arrow1.png" alt="image of a arrow pointing up"></a>

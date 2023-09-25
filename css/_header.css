@@ -16,9 +16,12 @@ header{
     padding: var(--txt-size-20);
 }
 
-.headline p{
+.headline a{
     margin: var(--txt-size-20);
+    padding-bottom: 3px;
     background: url(/images/underline.png) bottom left no-repeat;
+    background-size: 15%;
+    color: var(--dark-txt-bg);
 }
 
 nav{
@@ -90,7 +93,8 @@ nav a.current{
 
 
 
-    .headline p{
+    .headline a{
+        color: var(--dark-txt-bg);
         margin: 0;
         font-size: 14px;
     }
