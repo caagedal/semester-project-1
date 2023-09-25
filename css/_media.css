@@ -1,0 +1,344 @@
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------MEDIA-------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*-----------Global--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+@media (max-width: 850px){
+    .other-hero{
+        padding: 10rem 2rem;
+    }
+}
+
+@media (max-width: 500px){
+    .other-hero{
+        padding: 5rem 1rem;
+    }
+
+    .other-hero h1{
+        font-size: 30px;
+    }
+    
+}
+
+
+
+/*-----------Home--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 1200px){
+
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    .container{
+        margin: 3% 5%;
+    }
+
+    .hide-above-600{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1100px){
+
+    .images{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .large-image img{
+        width: 100%;
+        height: auto;
+    }    
+
+    .image-row img{
+        height: auto;
+        width: 30%
+    }
+
+    .image-row{
+        flex: 2;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hide-above-600{
+        display: none;
+    }
+
+}
+
+@media (max-width: 800px){
+    .events-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card{
+        max-width: 100%;
+        flex: 1;
+    }
+    
+    .card img{
+        height: 50%;
+        width: 100%;
+    }
+
+    .hide-above-600{
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px){
+    .image-row{
+        display: none;
+    }
+
+    .auto-but{
+        margin: 2rem auto;
+    }
+
+    .exhibitions{
+        flex-direction: column;
+    }
+
+    .exhibit-main-info{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+
+    .exhibit-main-info p{
+        margin: 1rem 0;
+    }
+
+    .hero-main h1{
+        font-size: 32px;
+    }
+
+    .hero-main{
+        height: 20rem;
+    }
+
+    .hero-main p{
+        display: none;
+    }
+
+    .hide-above-600{
+        display: block;
+        padding: 1rem;
+        font-weight: var(--fw-medium);
+        text-transform: uppercase;
+    }
+
+    .hide-above-600 p{
+        margin-bottom: 1rem;
+    }
+    
+    .back-to-top{
+        padding: 1rem;
+
+    }
+
+    .back-to-top a{
+        font-size: var(--txt-size-16);
+    }
+
+}
+
+
+/*-----------About--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 800px){
+    .about-images,.about-images2{
+        display: none;
+    }
+
+    .about-top h2{
+        font-size: 18px;
+    }
+
+    .about-top p{
+        font-size: var(--txt-size-16);
+    }
+}
+
+@media (max-width: 600px){
+  .upper-info, .lower-info{
+    padding: 2rem;
+  }
+}
+
+
+/*-----------Visit--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 1000px){
+    .visit-top{
+        gap: 10px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .visit-info-cards{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
+
+    .visit-info{
+        width: auto;
+    }
+}
+
+@media (max-width: 600px){
+    .visit-info-cards{
+        flex-direction: column;
+    }
+
+    .v-card p, .v-card h3{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .v-card h2{
+        font-size: 18px;
+    }
+
+    .visit-info p, .visit-bottom p{
+        font-size: var(--txt-size-16);
+    }
+
+}
+
+
+/*-----------Exhibitions--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 1200px){
+
+    .exhibit-card{
+        margin: 2rem 2rem;
+    }
+
+    .ex-card-info{
+        font-size: 16px;
+    }
+
+    .ex-card-info h3{
+        font-size: var(--txt-size-16);
+        font-weight: var(--fw-medium);
+    }
+}
+
+@media (max-width: 1000px){
+
+    .exhibit-card{
+        display: block;
+        padding: 20px;
+        margin: 4% 10%;   
+    }
+
+    .ex-img{
+        margin-top: 10px;
+    }
+
+    .ex-img img{
+        max-height: 300px;
+        object-fit: cover;
+        object-position: center center;
+    }
+    
+
+}
+
+@media (max-width: 850px){
+    .exhibitions-hero{
+        padding: 10rem 2rem;
+    }
+}
+
+@media (max-width: 500px){
+    
+    .exhib-welcome p{
+        font-size: 16px;
+    }
+
+    .exhibitions-hero{
+        padding: 5rem 1rem;
+    }
+
+    .exhibitions-hero h1{
+        font-size: 30px;
+    }
+
+    .ex-card-info p{
+        flex: 2;  
+        font-weight: var(--fw-light);
+        font-size: var(--txt-size-16);
+    }
+
+    .ex-card-info h3, .ex-card-info h2{
+        font-size: var(--txt-size-16);
+        font-weight: var(--fw-medium);
+    }
+    
+}
+
+
+/*-----------Events--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------Involve--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 1000px){
+   
+    .for-kids{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .for-kids img{
+        width: 100%;
+        max-height: 300px;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+    }
+
+    .kids-text{
+        color: var(--light-txt-bg);
+        padding: 20px;
+    }
+
+
+}
+
+@media (max-width: 500px){
+    
+    .kids-text p, .teachers p, .researchers p, .researchers img{
+        margin-top: 20px;
+        font-size: var(--txt-size-16);
+        font-weight: var(--fw-light);
+    }
+}
