@@ -1,3 +1,3 @@
-# semester-project-1
+# semester project 1 - Community Science Museum
 
-This is my repository for 1. semester project.
+![image]
