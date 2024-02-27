@@ -31,6 +31,8 @@ The site was tested on a variety of devices before final delivery.
 - HTML
 - CSS
 
+## Getting Started
+
 ### Installing
 
 1. Clone the repo:
